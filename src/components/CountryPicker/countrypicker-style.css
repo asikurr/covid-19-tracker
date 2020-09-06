@@ -1,0 +1,8 @@
+.country-container{
+    text-align:center;
+    margin: 20px 0;
+}
+
+.country-container > option {
+    padding-left: 5px !important;
+}
