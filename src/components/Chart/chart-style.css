@@ -1,6 +1,20 @@
 .chart-container{
     display:flex;
     justify-content:center;
-    width:80%;
+    width:60%;
     margin: 0 auto;
+}
+
+@media (max-width: 959px){
+    .chart-container{
+        width:85%!important;
+    }
+
+}
+
+@media (max-width: 400px){
+    .chart-container{
+        width:100%!important;
+    }
+
 }

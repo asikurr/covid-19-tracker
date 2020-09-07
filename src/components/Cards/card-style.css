@@ -1,8 +1,25 @@
 .card-container{
-    margin: 50px 0;
+    margin: 50px 0px 0px 0px;
 }
 .card{
     margin: 0 2%!important;
+}
+
+
+@media (max-width: 959px){
+    .card{
+       width: 90% !important;
+       margin:10px!important;
+    }
+
+}
+
+
+@media (max-width: 400px){
+    .card{
+       width: 100% !important;
+    }
+
 }
 
 .infected{

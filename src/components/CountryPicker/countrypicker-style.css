@@ -3,6 +3,11 @@
     margin: 20px 0;
 }
 
-.country-container > option {
-    padding-left: 5px !important;
+.MuiNativeSelect-filled.MuiNativeSelect-filled {
+    padding-right: 32px;
+    padding-left: 1rem;
+    background-color: rgba(161, 161, 182 , .7)
+}
+.MuiNativeSelect-select:not([multiple]) option, .MuiNativeSelect-select:not([multiple]) optgroup {
+    background-color: #9494cac4!important;
 }
